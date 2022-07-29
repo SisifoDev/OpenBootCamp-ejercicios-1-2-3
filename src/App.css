@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+.online {
+  color: #3486e3;
+}
+
+.notOnline {
+  color: #e52c2c;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

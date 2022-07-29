@@ -7,11 +7,11 @@ const ContactsViewComponent = () => {
     "Manuel",
     "Perdomo",
     "manuelperdomo@email.com",
-    true
+    false
   );
   return (
     <div>
-      <h2>Contacts</h2>
+      <h2>Contacto</h2>
       <ContactComponent contact={defaulContact} />
     </div>
   );

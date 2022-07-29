@@ -10,7 +10,13 @@ const ContactComponent = ({ contact }) => {
         {firstName} {lastName}
       </h2>
       <p>{email}</p>
-      <p>{connected ? "Contacto en línea" : "Contacto no disponible"}</p>
+      <p>
+        {connected ? (
+          <span className="online">Contacto en línea</span>
+        ) : (
+          <span className="notOnline">Contacto no disponible</span>
+        )}
+      </p>
     </div>
   );
 };
